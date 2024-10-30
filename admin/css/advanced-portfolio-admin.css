@@ -1,0 +1,87 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.notice, .update-nag{
+	 	display: none !important;
+	 }
+.adv-p-settings .bww.postbox{
+ 	padding: 0px 30px;
+    margin: 10px;
+}
+.advancedportfolio_settings table tbody tr th {
+    width: 50%;
+}
+.portfolio_shortoce_metabox p {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+.advancedportfolio_settings .switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 50px;
+}
+
+.advancedportfolio_settings .switch input.portfolioSwitchery {display:none;}
+
+.advancedportfolio_settings .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.advancedportfolio_settings .slider:before {
+  position: absolute;
+  content: "";
+  height: 22px;
+  width: 22px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.advancedportfolio_settings input.portfolioSwitchery:checked + .slider {
+  background-color: #2196F3;
+}
+
+.advancedportfolio_settings input.portfolioSwitchery:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+.advancedportfolio_settings input.portfolioSwitchery:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.advancedportfolio_settings .slider.round {
+  border-radius: 34px;
+}
+
+.advancedportfolio_settings .slider.round:before {
+  border-radius: 50%;
+}
+table.ciap_advanced_portfolio{
+	text-align: left;
+    padding: 10px;
+	width: 100%;
+}
+.ciap_advanced_portfolio select{
+	width: 100%;
+}
+p.advportfolios_shortcode{
+	font-size: 16px;
+    font-weight: 700;
+}
